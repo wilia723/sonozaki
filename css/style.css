@@ -484,11 +484,11 @@ img {
   .sp-nav__list {
     display: block;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 12rem;
   }
   .sp-nav__item {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
   .sp-nav__item:last-child {
     margin-bottom: 0;
