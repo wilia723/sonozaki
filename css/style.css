@@ -478,6 +478,7 @@ img {
     width: 100vw;
     top: 56px;
     left: 0;
+    padding-top: 8rem;
   }
   @supports (-webkit-touch-callout: none) {
     .sp-nav .sp-nav {
