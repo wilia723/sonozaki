@@ -648,32 +648,32 @@ img {
 }
 
 .mv__img_1 {
-  background-image: url(/img/top-image-1.png);
+  background-image: url(../img/top-image-1.png);
 }
 
 @media screen and (max-width: 767px) {
   .mv__img_1 {
-    background-image: url(/img/top-image-sp-1.png);
+    background-image: url(../img/top-image-sp-1.png);
   }
 }
 
 .mv__img_2 {
-  background-image: url(/img/top-image-2.png);
+  background-image: url(../img/top-image-2.png);
 }
 
 @media screen and (max-width: 767px) {
   .mv__img_2 {
-    background-image: url(/img/top-image-sp-2.png);
+    background-image: url(../img/top-image-sp-2.png);
   }
 }
 
 .mv__img_3 {
-  background-image: url(/img/top-image-3.png);
+  background-image: url(../img/top-image-3.png);
 }
 
 @media screen and (max-width: 767px) {
   .mv__img_3 {
-    background-image: url(/img/top-image-sp-3.png);
+    background-image: url(../img/top-image-sp-3.png);
   }
 }
 
