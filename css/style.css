@@ -480,7 +480,7 @@ img {
     left: 0;
   }
   @supports (-webkit-touch-callout: none) {
-    .sp-nav .sp-nav {
+    .sp-nav {
       height: -webkit-fill-available;
     }
   }
@@ -490,8 +490,7 @@ img {
   .sp-nav__list {
     display: block;
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 12rem;
+    padding-top: 1rem;
   }
   .sp-nav__item {
     margin-bottom: 4rem;
