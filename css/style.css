@@ -1633,7 +1633,7 @@ img {
   position: relative;
   content: "";
   display: inline-block;
-  background: url(/img/Backhoe.png);
+  background: url(../img/Backhoe.png);
   width: 24px;
   height: 18px;
   top: 2px;
@@ -1648,7 +1648,7 @@ img {
   position: relative;
   content: "";
   display: inline-block;
-  background: url(/img/Factory.png);
+  background: url(../img/Factory.png);
   width: 20px;
   height: 17px;
   top: 2px;
