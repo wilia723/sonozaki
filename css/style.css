@@ -478,6 +478,7 @@ img {
     width: 100vw;
     top: 56px;
     left: 0;
+    padding-top: 8rem;
   }
   @supports (-webkit-touch-callout: none) {
     .sp-nav .sp-nav {
@@ -489,7 +490,6 @@ img {
   }
   .sp-nav__list {
     display: block;
-    padding-top: 8rem;
     text-align: center;
   }
   .sp-nav__item {
