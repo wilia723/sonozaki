@@ -489,10 +489,11 @@ img {
   }
   .sp-nav__list {
     display: block;
+    padding-top: 8rem;
     text-align: center;
   }
   .sp-nav__item {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   .sp-nav__item:last-child {
     margin-bottom: 0;
