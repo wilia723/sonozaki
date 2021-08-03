@@ -1105,7 +1105,7 @@ img {
 }
 
 .about {
-  background: url(/img/background-image-about.jpg);
+  background: url(../img/background-image-about.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1548,7 +1548,7 @@ img {
 }
 
 .contact {
-  background: url(/img/bckground-image-contact.jpg);
+  background: url(../img/bckground-image-contact.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
