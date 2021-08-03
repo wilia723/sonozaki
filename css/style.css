@@ -480,21 +480,21 @@ img {
     left: 0;
   }
   @supports (-webkit-touch-callout: none) {
-  .sp-nav {
-    height: -webkit-fill-available;
+    .sp-nav .sp-nav {
+      height: -webkit-fill-available;
+    }
   }
-}
   .sp-nav.open {
     display: block;
   }
   .sp-nav__list {
     display: block;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 8rem;
     padding-bottom: 12rem;
   }
   .sp-nav__item {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   .sp-nav__item:last-child {
     margin-bottom: 0;
