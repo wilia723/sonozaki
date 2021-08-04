@@ -45,7 +45,7 @@ $(document).ready(function() {
         function noScroll(event) {
             event.preventDefault();
         }
-        $('#hamburger').on("click", function () {
+        $('#hamburger, .sp-nav__link').on("click", function () {
             $('.header, .sp-nav, .hamburger-line').toggleClass("open");
             if ($('.header').hasClass("open")) {
                 $(logo).attr("src", logo_white);
