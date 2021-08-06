@@ -1189,6 +1189,18 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about__img-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about .section-link {
+    margin: 0 auto;
+  }
+}
+
 .works {
   background: linear-gradient(135deg, #f0f0f0 15%, #fff 15%, #fff 85%, #f0f0f0 85%);
   margin-bottom: 16rem;
