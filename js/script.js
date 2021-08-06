@@ -39,29 +39,32 @@ $(document).ready(function() {
 
     //ハンバーガーメニュー
     $(function () {
-        var logo = '.header__logo';
-        var logo_white = "img/logo-w.svg";
-        var logo_black = "img/logo-b.svg";
-        function noScroll(event) {
-            event.preventDefault();
+        if(window.matchMedia("(max-width:767px)").matches) {
+            var logo = '.header__logo';
+            var logo_white = "img/logo-w.svg";
+            var logo_black = "img/logo-b.svg";
+            function noScroll(event) {
+                event.preventDefault();
+            }
+            $('#hamburger, .sp-nav__link').on("click", function () {
+                $('.header, .sp-nav, .hamburger-line').toggleClass("open");
+                if ($('.header').hasClass("open")) {
+                    $(logo).attr("src", logo_white);
+                } else if ($(window).scrollTop() > 600) {
+                    $(logo).attr("src", logo_black);
+                }
+                if ($('.sp-nav').hasClass("open")) {
+                    document.addEventListener('touchmove', noScroll, { passive: false });
+                    document.addEventListener('mousewheel', noScroll, { passive: false });
+                } else {
+                    document.removeEventListener('touchmove', noScroll, { passive: false });
+                    document.removeEventListener('mousewheel', noScroll, { passive: false });
+                }
+            });
         }
-        $('#hamburger, .sp-nav__link').on("click", function () {
-            $('.header, .sp-nav, .hamburger-line').toggleClass("open");
-            if ($('.header').hasClass("open")) {
-                $(logo).attr("src", logo_white);
-            } else if ($(window).scrollTop() > 600) {
-                $(logo).attr("src", logo_black);
-            }
-            if ($('.sp-nav').hasClass("open")) {
-                document.addEventListener('touchmove', noScroll, { passive: false });
-                document.addEventListener('mousewheel', noScroll, { passive: false });
-            } else {
-                document.removeEventListener('touchmove', noScroll, { passive: false });
-                document.removeEventListener('mousewheel', noScroll, { passive: false });
-            }
-        });
     });
 
+    //実績画像変更
     $(function () {
         if(window.matchMedia("(max-width:767px)").matches) {
             $(".performance__img_1").attr("src", "img/image-works01-sp.jpg");
